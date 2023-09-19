@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET - Krokodillespill</title>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="CSS/Main.css">
+</head>
+<body>
+    <div id="imgContainer">
+        <div id="crocImg"></div>
+    </div>
+    <div id="gameContainer">
+        <span id="tester">
+            <span id="leftSide" class="textContainer"></span>
+            <input id="theInput" onchange="checkAnswer()" maxlength="1" oninput="checkSymbols()">
+            <span id="rightSide" class="textContainer"></span>
+        </span>
+    </div>
+    <div id="scoreContainer">
+        <h1 id="theScore">Current score: 0</h1>
+    </div>
+    <script src="JavaScript/Main.js"></script>
+</body>
+</html>

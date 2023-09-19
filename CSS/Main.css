@@ -1,0 +1,71 @@
+/*Start*/
+
+body{
+    user-select: none;
+    text-align: center;
+    color: white;
+    background-color: #181818;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+#imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#crocImg{
+    background: url("../Images/StylishCroc.jpg") no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25rem;
+    height: 25rem;
+    border-color: #bfb408; /*#cdc20d*/
+    border-radius: 100%;
+    border-style: solid;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+#gameContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#theInput{
+    margin: 0px 6px 0px 6px;
+    height: 40px;
+    width: 60px;
+    border-color: #bfb408;
+    border-radius: 1px 1px 1px 1px;
+    border-style: solid;
+}
+
+/*
+#scoreContainer{
+    border-color: white;
+    border-radius: 1px 1px 1px 1px;
+    border-style: solid;
+}
+*/
+
+#theScore{
+    font-size: 20px;
+}
+
+.textContainer{
+    width: 60px;
+    height: 60px;
+    padding: 5px 5px 5px 5px;
+    border-color: #bfb408;
+    border-radius: 1px 1px 1px 1px;
+    border-style: solid;
+}
+
+
+
+/*End*/
